@@ -17,23 +17,14 @@ todo estudiar:
 codigos hexs
 alcance de variables
 */
-
-function cambiarColor(id1){
-
-const nana=document.getElementById(id1)
-
-nana.style.color="#f00"
-
-}
-
-
-// cambiarColor=("texto")
+function colorDeAlgo (id){
+const nana=document.getElementById(id);
+nana.style.color="#f00" 
+};
 
 
 
-// window.onunload= cambiarColor
-window.onload= cambiarColor("texto")
-
+window.onunload=colorDeAlgo("titulo","lectura")
 
 
 
